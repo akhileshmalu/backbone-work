@@ -1,0 +1,129 @@
+body {
+	background-color: #373737;
+/*	background:#121212;*/
+	margin:0px;
+	padding:0px;
+	font-family:"Open Sans", sans-serif;
+}
+h1 {
+	margin:0px;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+	font-weight: 100;
+}
+.tools {
+	text-align: center;
+	color: #fff;
+}
+#searchBox {
+	padding: 7px;
+	border:none;
+	border-radius: 5px;
+	font-size: 0.8em;
+	width: 300px;
+	text-align: center;
+}
+.delBtn {
+	margin: 5px;
+	color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    -webkit-appearance: button;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+},
+
+a.filter {
+	display:inline-block;
+	padding:5px 10px;
+	margin:5px;
+	background:#0472C0;
+	color:#fff;
+	text-decoration:none;
+	border-radius:3px;
+}
+a.filter:hover {
+	background:#0B9DE0;
+	color:#fff;
+}
+#summary {
+	color:#fff;
+	margin: 10px;
+	padding:10px;
+	display: inline-flex;
+	width: 100%;
+}
+.summary-item {
+	display: inline-block;
+	margin-right: 6px;
+	width: 20em;
+	float: right;
+}
+ul#listing {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	background:#fff;
+	width:100%;
+}
+ul#listing li {
+	list-style:none;
+	border-bottom:1px solid #eee;
+	display:block;
+}
+ul#listing li .list-header {
+	padding:10px;
+	cursor:pointer;
+	display:block;
+}
+ul#listing li .list-header span{
+	padding:10px;
+	cursor:pointer;
+	display:inline-block;
+}
+ul#listing li .list-header .Approved{
+	color: #5cb85c;
+}
+ul#listing li .list-header .Pending{
+	color: #f0ad4e;
+}
+ul#listing li .list-header .Rejected{
+	color: #d9534f;
+}
+ul#listing li .list-header:hover {
+	background:#7893AB;
+	color:#fff;
+}
+ul#listing li .list-header.active {
+	background:#447BAB;
+	color:#fff;
+}
+ul#listing li .details {
+	display:none;
+	background:#efefef;
+	padding:20px;
+	font-size:0.9em;
+}
+ul#listing li .list-header.active.details{
+	width: 100%;
+	display:inline-grid;
+	background:#447BAB;
+	color:#fff;
+}

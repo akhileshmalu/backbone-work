@@ -1,0 +1,47 @@
+body {
+	background-color: #f0f0f0; 
+}
+
+#todoApp {
+text-align: center;
+}
+
+#new-todo {
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+li .view label {
+	margin-left: 20px;
+}
+
+input .toggle {
+	width: 20px;
+}
+
+li {
+    background: #cce5ff;
+    margin: 100px 10px 5px;
+    display: inline;
+    align-self: left;
+    text-align: left;
+}
+
+ul {
+	margin-left: 40em;
+}
+
+
+#list-todos input.edit {
+  display: none; 
+}
+#ist-todos .editing label {
+  display: none; 
+}
+#list-todos .editing input.edit {
+  display: inline; 
+}
+
